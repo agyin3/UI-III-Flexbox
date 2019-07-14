@@ -93,22 +93,18 @@ p {
 /* Header Styling */
 
 nav {
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	width: 80vw;
 	margin-bottom: 25px;
-	/* position: fixed; 
-	z-index: 1000;
-	background-color: dodgerblue; */
+	margin-top: 15px;
 }
 
 ul {
-	display: inline-block;
-	margin-top: 25px;
-}
-
-ul li {
-	display: inline-block;
-	padding: 0 40px 25px;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
 }
 
 a {
@@ -116,23 +112,15 @@ a {
 	color: #bbb;
 }
 
-.logo {
-	float: right;
-	margin-top: 15px;
-	margin-left: 100px;
-	padding-right: 40px;
-}
-
 .title {
-	margin-top: auto;
-	margin-bottom: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 50px;
 }
 
 .title-container {
-	width: 45%;
 	text-align: center;
-	padding: 100px;
-	vertical-align: middle;
 }
 
 .button {
@@ -142,11 +130,6 @@ a {
 	margin: 0 auto;
 }
 
-.title-image {
-	margin-left: 15%;
-	vertical-align: middle;
-}
-
 /* Main Content Styling */ 
 
 main {
@@ -154,25 +137,24 @@ main {
 	border-bottom: 1px solid #000;
 }
 
-.top-content {
-	margin-top: 30px;
-	position: relative;
-	width: 45%;
+.top-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
 }
 
-.top-content:nth-child(2) {
-	float: right;
-	margin-left: 5%;
+.top-content {
+	width: 50%;
+}
+
+.lower-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
 }
 
 .lower-content {
-	width: 33%;
-	margin-bottom: 30px;
-	padding: 0 20px;
-}
-
-#first {
-	padding: 0;
+	width: 30%;
 }
 
 .middle-img {
