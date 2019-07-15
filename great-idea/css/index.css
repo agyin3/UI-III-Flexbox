@@ -87,6 +87,7 @@ h2 {
 
 p {
 	font-size: 18px;
+	line-height: 1.4;
 }
 
 
@@ -97,7 +98,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	width: 80vw;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	margin-top: 15px;
 }
 
@@ -116,7 +117,6 @@ a {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 50px;
 }
 
 .title-container {
@@ -130,11 +130,22 @@ a {
 	margin: 0 auto;
 }
 
+.services-header-img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.services-title {
+	text-align: left;
+	font-size: 1.5em;
+}
+
 /* Main Content Styling */ 
 
 main {
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
+	margin-top: 50px;
 }
 
 .top-container {
@@ -144,7 +155,7 @@ main {
 }
 
 .top-content {
-	width: 50%;
+	width: 47%;
 }
 
 .lower-container {
@@ -160,6 +171,66 @@ main {
 .middle-img {
 	width: 100%;
 	margin: 50px auto;
+}
+
+.services-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-content-container {
+	width: 47%;
+	height: 350px;
+	display: flex;
+	flex-flow: nowrap column;
+	justify-content: space-evenly;
+	background-color: #ddd;
+	border: 1px solid #000;
+	margin: 50px 0;
+	padding: 20px 20px;
+}
+
+.services-button {
+	width: 150px;
+	background: #eee;
+	border: 1px solid #000;
+	padding: 10px 0 10px 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+
+/* Learn More Styling */
+
+.learn-more {
+	margin: 50px auto 75px;;
+	display: flex;
+	justify-content: space-between;
+}
+
+.learn-more-content {
+	width: 45%;
+}
+
+.learn-more-content p {
+	padding-top: 20px;
+}
+
+.learn-more-content ul {
+	height: 50%;
+	list-style: square inside;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.learn-more-content ul li {
+	display: list-item;
+}
+
+.services-info-img {
+	width: 45%;
 }
 
 /* Contact Styling */
