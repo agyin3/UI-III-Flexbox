@@ -140,6 +140,14 @@ a {
 	font-size: 1.5em;
 }
 
+.vision-img-container {
+	height: 400px; 
+	width: 100%;
+	background: #fff url('../img/vision-page-img.jpg') no-repeat center center;
+	background-size: cover;
+	margin-bottom: 50px;
+}
+
 /* Main Content Styling */ 
 
 main {
@@ -199,6 +207,33 @@ main {
 	border-radius: 5px;
 	margin-top: 20px;
 
+}
+
+.vision-main h2 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* Values Styling */
+
+.values {
+	display: flex;
+	justify-content: space-between;
+}
+
+.values-container {
+	width: 30%;
+	height: 375px;
+	border: 1px solid #000;
+	margin: 50px 0;
+	padding: 20px 15px 0 15px;
+	background:  #eee;
+
+}
+
+.values-container h3 {
+	text-align: center;
+	font-size: 1.7em;
 }
 
 /* Learn More Styling */
