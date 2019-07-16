@@ -113,23 +113,6 @@ a {
 	color: #bbb;
 }
 
-.title {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.title-container {
-	text-align: center;
-}
-
-.button {
-	border: 1px solid #000;
-	padding: 10px 0 10px 0;
-	width: 70%;
-	margin: 0 auto;
-}
-
 .services-header-img {
 	width: 100%;
 	margin-bottom: 50px;
@@ -140,14 +123,6 @@ a {
 	font-size: 1.5em;
 }
 
-.vision-img-container {
-	height: 400px; 
-	width: 100%;
-	background: #fff url('../img/vision-page-img.jpg') no-repeat center center;
-	background-size: cover;
-	margin-bottom: 50px;
-}
-
 /* Main Content Styling */ 
 
 main {
@@ -156,84 +131,63 @@ main {
 	margin-top: 50px;
 }
 
-.top-container {
+.services-main {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: 50px;
 }
 
-.top-content {
+.services-content-container {
 	width: 47%;
-}
-
-.lower-container {
+	height: 350px;
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 50px;
-}
-
-.lower-content {
-	width: 30%;
-}
-
-.middle-img {
-	width: 100%;
-	margin: 50px auto;
-}
-
-.vision-main h2 {
-	text-align: center;
-	margin-top: 50px;
-}
-
-/* Values Styling */
-
-.values {
-	display: flex;
-	justify-content: space-between;
-}
-
-.values-container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 30%;
-	height: 375px;
+	flex-flow: nowrap column;
+	justify-content: space-evenly;
+	background-color: #ddd;
 	border: 1px solid #000;
 	margin: 50px 0;
-	padding: 20px 15px 0 15px;
-	background:  #eee;
+	padding: 20px 20px;
 }
 
-.values-container:hover {
-	background: #ddd;
-	transform: scale(1.2, 1.3);
-	opacity: 1;
+.services-button {
+	width: 150px;
+	background: #eee;
+	border: 1px solid #000;
+	padding: 10px 0 10px 30px;
+	border-radius: 5px;
+	margin-top: 20px;
 }
 
-.values-container h3 {
-	text-align: center;
-	font-size: 1.7em;
-	margin: 25px 0;
+/* Learn More Styling */
+
+.learn-more {
+	margin: 50px auto 75px;;
+	display: flex;
+	justify-content: space-between;
 }
 
-/* Contact Styling */
-
-.contact {
-	margin-top: 30px;
+.learn-more-content {
+	width: 45%;
 }
 
-address {
-	line-height: 1.5;
+.learn-more-content p {
+	padding-top: 20px;
 }
 
-address p {
-	font-size: 16px;
+.learn-more-content ul {
+	height: 50%;
+	list-style: square inside;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.learn-more-content ul li {
+	display: list-item;
 }
 
-address p:hover {
-	text-decoration: underline;
-	cursor: pointer;
+.services-info-img {
+	width: 45%;
 }
 
 /* Footer Styling */
